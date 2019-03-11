@@ -1,0 +1,25 @@
+{
+  "name": "udemynodejs-javascript-na-pratica",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phiwamoto/udemyNodeJS-JavaScript-na-Pratica.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phiwamoto/udemyNodeJS-JavaScript-na-Pratica/issues"
+  },
+  "homepage": "https://github.com/phiwamoto/udemyNodeJS-JavaScript-na-Pratica#readme",
+  "dependencies": {
+    "knex": "^0.16.3",
+    "mysql": "^2.16.0",
+    "restify": "^8.1.0",
+    "restify-errors": "^7.0.0"
+  }
+}
