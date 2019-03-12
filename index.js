@@ -78,3 +78,20 @@ server.put('/update/:id', function (req, res, next) {
 
     return next();
 });
+
+
+server.del('/delete/:id', function (req, res, next) {
+
+    const { id } = req.params;
+
+    knex('rest')
+    .where('id', id)
+    .delete()
+    .then((dados)=>{
+        if (!dados)
+            return res.send(new errs.BadRequestError('nada foi econtrado'));        
+        res.send('dados excluídos');
+    }, next);
+
+    return next();
+});
